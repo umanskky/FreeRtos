@@ -240,7 +240,7 @@ void StartTask1(void const * argument)
   for(;;)
   {
     HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_1);
-    osDelay(300);
+    osDelay(150);
   }
   
 }
